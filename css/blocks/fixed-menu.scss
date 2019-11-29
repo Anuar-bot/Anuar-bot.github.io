@@ -3,9 +3,8 @@
   top: 100px;
   right: 50px;
   z-index: 2;
-
+  list-style: none;
 }
-
 
 .fixed-menu__dot {
   display: block;
@@ -21,7 +20,7 @@
   }
 
   &:before {
-    content: '';
+    content: "";
     width: 6px;
     height: 6px;
     background-color: $white;
@@ -30,6 +29,5 @@
     top: 50%;
     left: 50%;
     transform: translate(50%, -50%);
-
   }
 }

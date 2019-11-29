@@ -1,23 +1,31 @@
 @font-face {
-  font-family: 'Gagalin-Regular';
-  src: url('/fonts/Gagalin-Regular.woff') format('woff');
+  font-family: "Gagalin-Regular";
+  src: url("/fonts/Gagalin-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Lifehack-Medium';
-  src: url('/fonts/Lifehack-Medium.woff') format('woff');
+  font-family: "Lifehack-Medium";
+  src: url("/fonts/Lifehack-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/fonts/Ubuntu-B.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
-
-
 @mixin gagalin() {
-  font-family: 'Gagalin-Regular', Helvetica, sans-serif;
+  font-family: "Gagalin-Regular", Helvetica, sans-serif;
 }
 
 @mixin lifehack() {
-  font-family: 'Lifehack-Medium';
+  font-family: "Lifehack-Medium";
+}
+
+@mixin ubuntu() {
+  font-family: "Ubuntu";
 }

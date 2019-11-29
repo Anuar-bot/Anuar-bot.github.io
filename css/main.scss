@@ -1,15 +1,14 @@
-//colors 
+//colors
 $orange: #e45028;
 $yellow: #f9b43b;
 $black: #2f3234;
 $red: #e35028;
 $white: #fff;
 
-
 $z-fixed-menu: 100;
 
 // //normalaize
-@import "_misc/normalize.scss";
+// @import "_misc/normalize.scss";
 
 // // setup
 @import "_misc/mixins";
@@ -25,3 +24,5 @@ $z-fixed-menu: 100;
 @import "blocks/reviews";
 @import "blocks/form";
 @import "blocks/fixed-menu";
+@import "blocks/about.scss";
+@import "blocks/team.scss";

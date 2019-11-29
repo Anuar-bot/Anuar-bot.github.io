@@ -5,6 +5,7 @@
 }
 
 .reviews__item {
+  list-style-type: none;
   flex-basis: 25%;
   height: 50%;
   position: relative;
@@ -34,5 +35,13 @@
   right: 0;
   background-color: rgba($black, 0.5);
   padding: 50px 20px;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
+}
+
+.reviews__name {
+  @include gagalin();
+}
+
+.reviews__text {
+  @include ubuntu();
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1" />
     <title>Главная страница</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/_misc/normalize.scss" />
+    <link rel="stylesheet" href="./css/_misc/normalize.css" />
   </head>
   <body>
     <header class="header">
@@ -38,7 +38,7 @@
         </div>
       </div>
     </header>
-    <section class="section promo">
+    <section class="section promo" id="promo">
       <div class="container promo__container">
         <div class="promo__content">
           <img
@@ -58,7 +58,32 @@
         ></a>
       </div>
     </section>
-    <div class="section reviews">
+    <section class="section about" id="about">
+        <div class="container about__container">
+          <h2 class="about__title">Мы лучшие</h2>
+          <ul class="about__list">
+            <li class="about__item">
+              <img class="about__pic" src="/img/content/meat.svg" alt="Картинка мяса">
+              <h3 class="title about__pic-title">100% свежее мясо</h3>
+                <div class="about__subtitle">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
+                </div>
+            </li>      
+            <li class="about__item">
+              <img class="about__pic" src="/img/content/hand.svg" alt="Картинка ладони">
+              <h3 class="title about__pic-title">Ручная  сборка</h3>
+                <div class="about__subtitle">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+                </div>
+            </li>
+            <li class="about__item">
+              <img class="about__pic" src="/img/content/natural.svg" alt="Картинка листочка">
+              <h3 class="title about__pic-title">Натуральные ингредиенты</h3>
+                <div class="about__subtitle">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
+                </div>
+            </li>
+          </ul>
+        </div> 
+    </section>
+    <section class="section reviews" id="reviews">
       <ul class="reviews__list">
         <li class="reviews__item">
           <img
@@ -213,8 +238,8 @@
           </div>
         </li>
       </ul>
-    </div>
-    <section class="section order">
+    </section>
+    <section class="section order" id="order">
       <h2 class="title order__title">Закажите доставку</h2>
       <form action="" class="form">
         <div class="form__col">
@@ -228,6 +253,53 @@
         </div>
         <div class="form__col"></div>
       </form>
+    </section>
+    <section class="section team" id="team">
+      <div class="team-accordeon">
+        <h2 class="title team__title title--yellow">команда</h2>
+        <ul class="team-accordeon__list">
+          <li class="team-accordeon__item">
+            <h3 class="team-accordeon__trigger team-accordeon__triger--active">Ричард Джеймс</h3>  
+            <div class="team-accordeon__content">
+              <img class="team-accordeon__content-photo" src="/img/content/aphex.svg" alt="Фото оператора" >
+              <div class="team-accordeon__description">
+                <div class="team-accordeon__ocupation">Оператор</div>
+                <div class="team-accordeon__info">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+              </div>
+            </div>
+          </li>
+          <li class="team-accordeon__item">
+            <h3 class="team-accordeon__trigger team-accordeon__triger--active">Дэниэл Редклиф</h3>  
+            <div class="team-accordeon__content">
+              <img class="team-accordeon__content-photo" src="/img/content/aphex.svg" alt="Фото повара" >
+              <div class="team-accordeon__description">
+                <div class="team-accordeon__ocupation">Повар</div>
+                <div class="team-accordeon__info">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+              </div>
+            </div>
+          </li>
+          <li class="team-accordeon__item">
+            <h3 class="team-accordeon__trigger team-accordeon__triger--active">Джейк Финн</h3>  
+            <div class="team-accordeon__content">
+              <img class="team-accordeon__content-photo" src="/img/content/aphex.svg" alt="Фото официанта" >
+              <div class="team-accordeon__description">
+                <div class="team-accordeon__ocupation">Официант</div>
+                <div class="team-accordeon__info">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+              </div>
+            </div>
+          </li>
+          <li class="team-accordeon__item">
+            <h3 class="team-accordeon__trigger team-accordeon__triger--active">Николай Иванов</h3>  
+            <div class="team-accordeon__content">
+              <img class="team-accordeon__content-photo" src="/img/content/aphex.svg" alt="Фото директора" >
+              <div class="team-accordeon__description">
+                <div class="team-accordeon__ocupation">Директор</div>
+                <div class="team-accordeon__info">С радостью поможет подобрать идеальный бургер и оформить заказ.</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <ul class="fixed-menu">
       <li class="fixed-menu__item">

@@ -9,7 +9,6 @@
 .promo__container {
   height: 100%;
   display: flex;
-
 }
 
 .promo__content {
@@ -31,11 +30,12 @@
 
 .promo__scroll-btn {
   width: 29px;
-  height: 14px;
+  height: 18px;
   background-image: url(../../img/icons/arrow-scroll.svg);
   display: block;
   position: absolute;
   bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
+  background-repeat: no-repeat;
 }
