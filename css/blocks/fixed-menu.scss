@@ -15,8 +15,8 @@
   margin-bottom: 3px;
   position: relative;
 
-  &--active {
-    background-color: $white;
+  &--activ {
+    border-color: $white;
   }
 
   &:before {
@@ -27,7 +27,7 @@
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 10%;
     transform: translate(50%, -50%);
   }
 }
