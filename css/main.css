@@ -361,7 +361,8 @@ body {
   padding-left: rem(100px); }
 
 .team__title {
-  margin-bottom: rem(55px); }
+  margin-bottom: rem(55px);
+  font-weight: 400; }
 
 .team-accordeon__list {
   display: -webkit-box;
