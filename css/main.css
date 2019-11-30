@@ -362,7 +362,9 @@ body {
 
 .team__title {
   margin-bottom: rem(55px);
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 72px;
+  text-align: center; }
 
 .team-accordeon__list {
   display: -webkit-box;
@@ -374,7 +376,8 @@ body {
   flex-direction: column; }
 
 .team-accordeon__item {
-  display: inline-block; }
+  display: inline-block;
+  width: 80%; }
 
 .team-accordeon__trigger {
   cursor: pointer;
