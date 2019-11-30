@@ -443,3 +443,31 @@ body {
   background-size: cover;
   background-position: center center;
   position: relative; }
+
+.work {
+  background-image: url("/img/bg/work.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.map {
+  background-image: url("/img/bg/map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.burgers {
+  background-image: url("/img/bg/burgers.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.menu {
+  background-image: url("/img/bg/menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
