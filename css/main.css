@@ -130,7 +130,8 @@ body {
   align-items: center; }
 
 .promo__title {
-  margin: left; }
+  margin: left;
+  font-weight: 400; }
 
 .promo__subtitle {
   font-family: "Lifehack-Medium";
@@ -184,7 +185,8 @@ body {
   align-items: center; }
 
 .promo__title {
-  margin: left; }
+  margin: left;
+  font-weight: 400; }
 
 .promo__subtitle {
   font-family: "Lifehack-Medium";
@@ -427,3 +429,17 @@ body {
 .team-accordeon__ocupation {
   font-weight: 700;
   margin-bottom: rem(10px); }
+
+.delivery {
+  background-image: url("/img/bg/delivery.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+
+.map {
+  background-image: url("/img/bg/map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
