@@ -5,3 +5,22 @@
   background-position: center center;
   position: relative;
 }
+
+.work__title {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 64.05px;
+  color: #2f3234;
+  @include gagalin();
+}
+
+.work__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
