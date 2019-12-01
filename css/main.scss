@@ -7,6 +7,9 @@ $white: #fff;
 
 $z-fixed-menu: 100;
 
+@function rem($px) {
+  @return $px / 16px + 0rem;
+}
 // //normalaize
 // @import "_misc/normalize.scss";
 
