@@ -16,7 +16,7 @@
   height: 100%;
   background-color: #2f3234;
   opacity: 0.93;
-  padding-top: rem(105px);
+  padding-top: 3.625rem;
   padding-left: rem(100px);
 }
 
@@ -39,9 +39,11 @@
 
 .team-accordeon__trigger {
   cursor: pointer;
-  font-family: "Gagalin-Regular", Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 28.13px;
+  @include gagalin();
   text-transform: uppercase;
-  font-size: rem(32px);
+  font-size: rem(14px);
   display: inline-flex;
   align-items: center;
   color: $white;
@@ -52,7 +54,7 @@
     width: rem(10px);
     height: rem(6px);
     margin-right: rem(10px);
-    background: url(/img/icons/btn_up.svg);
+    background: url(../../img/icons/btn_up.svg);
     background-position: center center;
     background-repeat: no-repeat;
   }
@@ -91,4 +93,11 @@
 .team-accordeon__ocupation {
   font-weight: 700;
   margin-bottom: rem(10px);
+}
+
+.team-accordeon__description {
+  @include ubuntu();
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24.01px;
 }

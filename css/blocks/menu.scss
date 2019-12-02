@@ -36,6 +36,15 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
+  &:first-child {
+    background-image: url(../img/bg/triger-diet.jpg);
+  }
+  &:nth-child(2) {
+    background-image: url(../img/bg/triger-diet.jpg);
+  }
+  &:nth-child(3) {
+    background-image: url(../img/bg/triger-diet.jpg);
+  }
 
   &--active .menu-accordeon__triger-text {
     color: $yellow;
@@ -51,7 +60,8 @@
   font-size: rem(40px);
   color: $white;
   position: absolute;
-  font-family: "gagalin", Helvetica, sans-serif;
+  // font-family: "gagalin", Helvetica, sans-serif;
+  @include gagalin();
   top: 90%;
   left: 50%;
   transform: rotate(-90deg);
@@ -68,4 +78,10 @@
 
 .menu-accordeon__text {
   padding: rem(70px) rem(40px);
+  @include gagalin();
+  transition: color 0.5s, padding 0.5s;
+}
+.menu-accordeon__text:hover {
+  color: red;
+  padding: 10px;
 }

@@ -8,7 +8,9 @@
 
 .about__container {
   height: 100%;
-  // display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about__list {
@@ -43,7 +45,7 @@
   line-height: 64.05px;
   color: #2f3234;
   @include gagalin();
-  margin-top: 133px;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
