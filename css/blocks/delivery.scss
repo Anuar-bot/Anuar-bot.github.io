@@ -14,3 +14,50 @@
   color: $yellow;
   @include gagalin();
 }
+
+.delivery-form {
+  // @extend %clearfix;
+  margin-left: -5%;
+}
+
+.delivery-form__row {
+  display: flex;
+  margin-bottom: rem(16px);
+}
+
+.elivery-form__title {
+  margin-bottom: rem(17px);
+  @include ubuntu();
+  color: $white;
+  font-size: rem(14px);
+}
+
+// .delivery-form__input {
+//   font-size: rem(14px);
+//   padding: rem(10px);
+//   padding: rem(5px) rem(10px);
+//   border: rem(1px) solid #d1cfcb;
+//   border-radius: rem(5px);
+//   width: 100%;
+// }
+
+.delivery-form__block {
+  display: block;
+  width: 100%;
+}
+
+.order__form-row_double {
+  margin-left: rem(-20px);
+  .delivery-form__block {
+    width: calc(100% / 2 - rem(20px));
+    margin-left: rem(20px);
+  }
+}
+
+.delivery__form-row_quatro {
+  margin-left: rem(-20px);
+  .order__form-block {
+    width: calc(100% / 4 - rem(20px));
+    margin-left: rem(20px);
+  }
+}

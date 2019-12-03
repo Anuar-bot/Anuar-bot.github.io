@@ -37,13 +37,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   &:first-child {
-    background-image: url(../img/bg/triger-diet.jpg);
+    background-image: url(../../img/bg/triger-diet.jpg);
   }
   &:nth-child(2) {
     background-image: url(../img/bg/triger-diet.jpg);
   }
   &:nth-child(3) {
-    background-image: url(../img/bg/triger-diet.jpg);
+    background-image: url(../img/bg/triger-meat.jpg);
   }
 
   &--active .menu-accordeon__triger-text {
@@ -81,7 +81,7 @@
   @include gagalin();
   transition: color 0.5s, padding 0.5s;
 }
-.menu-accordeon__text:hover {
-  color: red;
-  padding: 10px;
-}
+// .menu-accordeon__text:hover {
+//   color: red;
+//   padding: 10px;
+// }
