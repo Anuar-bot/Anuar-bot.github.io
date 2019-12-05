@@ -31,30 +31,30 @@
 .about__pic-title {
   @include lifehack();
   text-align: center;
-  letter-spacing: -0.6px;
+  letter-spacing: rem(-0.6px);
   color: #2f3234;
-  font-size: 24px;
+  font-size: rem(24px);
   font-weight: 500;
-  line-height: 28.14px;
+  line-height: rem(28.14px);
 }
 
 .about__title {
   text-align: center;
-  font-size: 72px;
+  font-size: rem(72px);
   font-weight: 400;
-  line-height: 64.05px;
+  line-height: rem(64.05px);
   color: #2f3234;
   @include gagalin();
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: rem(50px);
 }
 
 .about__subtitle {
   opacity: 0.8;
   color: #2f3234;
   font-family: Ubuntu;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 300;
-  line-height: 24.07px;
+  line-height: rem(24.07px);
   text-align: center;
 }

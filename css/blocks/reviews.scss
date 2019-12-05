@@ -6,11 +6,15 @@
 
 .reviews__item {
   list-style-type: none;
-  flex-basis: 25%;
+  width: 25%;
   height: 50%;
   position: relative;
   filter: grayscale(100%);
 
+  @include tablets {
+    width: 50%;
+    height: 25%;
+  }
   &:hover {
     .reviews__hover {
       opacity: 1;
@@ -34,8 +38,13 @@
   left: 0;
   right: 0;
   background-color: rgba($black, 0.5);
-  padding: 50px 20px;
+  padding: rem(50px) rem(20px);
   transition: opacity 0.4s;
+
+  @include tablets {
+    padding: 8%;
+    text-align: center;
+  }
 }
 
 .reviews__name {

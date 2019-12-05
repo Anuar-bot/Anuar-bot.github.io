@@ -8,9 +8,9 @@
 
 .work__title {
   text-align: center;
-  font-size: 72px;
+  font-size: rem(72px);
   font-weight: 400;
-  line-height: 64.05px;
+  line-height: rem(64.05px);
   color: #2f3234;
   @include gagalin();
 }

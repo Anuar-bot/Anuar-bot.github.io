@@ -1,29 +1,32 @@
-html {
-  height: 100%;
-  background: gray;
-  padding-top: 100px;
+.add {
+  padding-bottom: 100px;
+  padding-top: 90px;
 }
-
-.container {
-  padding: 10px;
-  border: 1px solid rgb(108, 66, 151);
-  border-radius: 5px;
-  /* height: 300px; */
+.add-line {
   display: flex;
 }
 
-.item:nth-child(3) {
-  order: -1;
+.location {
+  font-size: 18px;
+  padding: 30px 87px 35px 55px;
+  background: #ffcc01;
+  display: inline-block;
 }
-.item:nth-child(2) {
-  order: 100;
+.location i {
+  margin-right: 30px;
+  font-size: 25px;
+  position: relative;
+  top: 7px;
+  color: #fff;
 }
-.item {
-  padding: 10px;
-  color: red;
-  font-family: sans-serif;
-  border-radius: 5px;
-  background: rosybrown;
-  border: 1px solid rgb(39, 199, 18);
-  /* width: 300px; */
+
+.location-melburn {
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+}
+.location-australia {
+  position: relative;
+  left: 260px;
+  bottom: 50px;
 }
