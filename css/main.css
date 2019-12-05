@@ -161,6 +161,12 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 768px) {
+    .promo__container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .promo__content {
   display: -webkit-box;
@@ -173,8 +179,15 @@ footer {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      width: 100%;
-      margin-top: 0; } }
+      margin-top: 0;
+      padding: 0; } }
+  @media screen and (max-width: 480px) {
+    .promo__content {
+      padding: 10%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .promo__title {
   display: -webkit-box;
@@ -190,6 +203,9 @@ footer {
       padding-top: 0;
       width: 100%;
       text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .promo__title {
+      font-size: 3.9375rem; } }
 
 .promo__subtitle {
   font-family: "Lifehack-Medium";
@@ -201,7 +217,16 @@ footer {
     .promo__subtitle {
       padding-top: 0;
       width: 100%;
-      text-align: center; } }
+      text-align: center;
+      font-size: 3.5rem; } }
+  @media screen and (max-width: 480px) {
+    .promo__subtitle {
+      font-size: 2.875rem; } }
+
+@media screen and (max-width: 768px) {
+  .promo__img {
+    padding-top: 0;
+    text-align: center; } }
 
 .promo__scroll-btn {
   width: 1.8125rem;
@@ -238,6 +263,12 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 768px) {
+    .promo__container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .promo__content {
   display: -webkit-box;
@@ -250,8 +281,15 @@ footer {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
-      width: 100%;
-      margin-top: 0; } }
+      margin-top: 0;
+      padding: 0; } }
+  @media screen and (max-width: 480px) {
+    .promo__content {
+      padding: 10%;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .promo__title {
   display: -webkit-box;
@@ -267,6 +305,9 @@ footer {
       padding-top: 0;
       width: 100%;
       text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .promo__title {
+      font-size: 3.9375rem; } }
 
 .promo__subtitle {
   font-family: "Lifehack-Medium";
@@ -278,7 +319,16 @@ footer {
     .promo__subtitle {
       padding-top: 0;
       width: 100%;
-      text-align: center; } }
+      text-align: center;
+      font-size: 3.5rem; } }
+  @media screen and (max-width: 480px) {
+    .promo__subtitle {
+      font-size: 2.875rem; } }
+
+@media screen and (max-width: 768px) {
+  .promo__img {
+    padding-top: 0;
+    text-align: center; } }
 
 .promo__scroll-btn {
   width: 1.8125rem;
@@ -400,19 +450,35 @@ footer {
 .about__list {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row; }
+  display: flex; }
+  @media screen and (max-width: 480px) {
+    .about__list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .about__item {
   list-style-type: none; }
+  @media screen and (max-width: 480px) {
+    .about__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
 
 .about__pic {
   display: block;
   margin-left: auto;
   margin-right: auto; }
+  @media screen and (max-width: 480px) {
+    .about__pic {
+      text-align: right;
+      width: 4.0625rem;
+      height: 6.25rem; } }
 
 .about__pic-title {
   font-family: "Lifehack-Medium";
@@ -422,6 +488,9 @@ footer {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.75875rem; }
+  @media screen and (max-width: 480px) {
+    .about__pic-title {
+      text-align: left; } }
 
 .about__title {
   text-align: center;
@@ -441,6 +510,21 @@ footer {
   font-weight: 300;
   line-height: 1.50438rem;
   text-align: center; }
+  @media screen and (max-width: 480px) {
+    .about__subtitle {
+      text-align: left; } }
+
+@media screen and (max-width: 480px) {
+  .about__desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 20px; } }
 
 .team {
   background-image: url("../img/bg/team.svg");

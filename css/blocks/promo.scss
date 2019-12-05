@@ -9,6 +9,9 @@
 .promo__container {
   height: 100%;
   display: flex;
+  @include tablets {
+    flex-direction: column;
+  }
 }
 
 .promo__content {
@@ -17,8 +20,12 @@
 
   @include tablets {
     flex-direction: column;
-    width: 100%;
     margin-top: 0;
+    padding: 0;
+  }
+  @include phones {
+    padding: 10%;
+    flex-direction: column;
   }
 }
 
@@ -31,6 +38,9 @@
     padding-top: 0;
     width: 100%;
     text-align: center;
+  }
+  @include phones {
+    font-size: rem(63px);
   }
 }
 
@@ -45,9 +55,18 @@
     padding-top: 0;
     width: 100%;
     text-align: center;
+    font-size: rem(56px);
+  }
+  @include phones {
+    font-size: rem(46px);
   }
 }
-
+.promo__img {
+  @include tablets {
+    padding-top: 0;
+    text-align: center;
+  }
+}
 .promo__scroll-btn {
   width: rem(29px);
   height: rem(18px);

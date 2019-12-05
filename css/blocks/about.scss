@@ -15,17 +15,30 @@
 
 .about__list {
   display: flex;
-  flex-direction: row;
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .about__item {
   list-style-type: none;
+
+  @include phones {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .about__pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  @include phones {
+    text-align: right;
+    width: rem(65px);
+    height: rem(100px);
+  }
 }
 
 .about__pic-title {
@@ -36,6 +49,9 @@
   font-size: rem(24px);
   font-weight: 500;
   line-height: rem(28.14px);
+  @include phones {
+    text-align: left;
+  }
 }
 
 .about__title {
@@ -57,4 +73,16 @@
   font-weight: 300;
   line-height: rem(24.07px);
   text-align: center;
+  @include phones {
+    text-align: left;
+  }
+}
+
+.about__desc {
+  @include phones {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
+  }
 }
